@@ -460,6 +460,12 @@
         <mxCell id="FJmou89mXSuUJOH6Wvo6-130" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Roles&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Implementación de Roles en el generador, para creación de requerimientos, envio a aprobación, desarrollo, publicación. Roles de Proveedores. Login Proveedores&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="180" x="1760" y="-290" as="geometry" />
         </mxCell>
+        <mxCell id="rCKeqNgDJTReCI9KCpxP-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="Control de Cambios (Sección Portal REQ.)" vertex="1">
+          <mxGeometry height="80" width="120" x="2840" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="rCKeqNgDJTReCI9KCpxP-3" edge="1" parent="1" source="FJmou89mXSuUJOH6Wvo6-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="rCKeqNgDJTReCI9KCpxP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
