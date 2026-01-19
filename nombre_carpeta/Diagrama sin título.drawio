@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0 (Edition ms_store)" version="29.3.2">
   <diagram name="Arquitectura Eventos" id="x72HKeSlQVN4O1Rg2Sr8">
-    <mxGraphModel dx="2861" dy="2280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2251" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -431,7 +431,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FJmou89mXSuUJOH6Wvo6-121" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="Maquetación Envío, Mapeo, Eliminación" vertex="1">
-          <mxGeometry height="80" width="120" x="3840" y="-120" as="geometry" />
+          <mxGeometry height="80" width="120" x="3870" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="FJmou89mXSuUJOH6Wvo6-122" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Ajuste&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Falta maquetación de eventos con ayuda de la IA&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="180" x="3380" y="350" as="geometry" />
