@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0 (Edition ms_store)" version="29.3.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/126.0.0.0 (Edition ms_store)" version="29.3.4">
   <diagram name="Arquitectura Eventos" id="x72HKeSlQVN4O1Rg2Sr8">
     <mxGraphModel dx="2251" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,6 +465,253 @@
         </mxCell>
         <mxCell id="rCKeqNgDJTReCI9KCpxP-3" edge="1" parent="1" source="FJmou89mXSuUJOH6Wvo6-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="rCKeqNgDJTReCI9KCpxP-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-77" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="610" width="1160" x="4070" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-79" parent="khKDAOKDx-5_5qZcapgI-77" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;" value="" vertex="1">
+          <mxGeometry height="435" width="320" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-3" parent="khKDAOKDx-5_5qZcapgI-77" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tablas del Generador&lt;/h1&gt;&lt;p&gt;Consolidación tablas principales del Generador&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="60" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-20" parent="khKDAOKDx-5_5qZcapgI-77" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=default;" value="sid_send_docugene" vertex="1">
+          <mxGeometry height="150" width="230" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-21" parent="khKDAOKDx-5_5qZcapgI-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-22" parent="khKDAOKDx-5_5qZcapgI-21" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-23" parent="khKDAOKDx-5_5qZcapgI-21" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-24" parent="khKDAOKDx-5_5qZcapgI-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-25" parent="khKDAOKDx-5_5qZcapgI-24" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-26" parent="khKDAOKDx-5_5qZcapgI-24" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="formid (app-...)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-27" parent="khKDAOKDx-5_5qZcapgI-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-28" parent="khKDAOKDx-5_5qZcapgI-27" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-29" parent="khKDAOKDx-5_5qZcapgI-27" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="tab_name (Nombre aplicativo)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-30" parent="khKDAOKDx-5_5qZcapgI-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-31" parent="khKDAOKDx-5_5qZcapgI-30" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-32" parent="khKDAOKDx-5_5qZcapgI-30" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="json_tab (json documentacion)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-46" parent="khKDAOKDx-5_5qZcapgI-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="tabla documentación" vertex="1">
+          <mxGeometry height="30" width="130" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-33" parent="khKDAOKDx-5_5qZcapgI-77" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="sid_send_tabs" vertex="1">
+          <mxGeometry height="150" width="230" x="370" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-34" parent="khKDAOKDx-5_5qZcapgI-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-35" parent="khKDAOKDx-5_5qZcapgI-34" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-36" parent="khKDAOKDx-5_5qZcapgI-34" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-37" parent="khKDAOKDx-5_5qZcapgI-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-38" parent="khKDAOKDx-5_5qZcapgI-37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-39" parent="khKDAOKDx-5_5qZcapgI-37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="formid (app-...)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-40" parent="khKDAOKDx-5_5qZcapgI-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-41" parent="khKDAOKDx-5_5qZcapgI-40" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-42" parent="khKDAOKDx-5_5qZcapgI-40" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="formname (Nombre aplicativo)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-43" parent="khKDAOKDx-5_5qZcapgI-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-44" parent="khKDAOKDx-5_5qZcapgI-43" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-45" parent="khKDAOKDx-5_5qZcapgI-43" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="tabid (module..)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-47" parent="khKDAOKDx-5_5qZcapgI-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22text%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Brotatable%3D0%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3BfontSize%3D12%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22tabla%20documentaci%C3%B3n%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%22130%22%20x%3D%224260%22%20y%3D%22-195%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="430" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-48" parent="khKDAOKDx-5_5qZcapgI-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="tabla de las tabs" vertex="1">
+          <mxGeometry height="30" width="130" x="430" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-64" parent="khKDAOKDx-5_5qZcapgI-77" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="sid_send_inputs" vertex="1">
+          <mxGeometry height="150" width="230" x="650" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-65" parent="khKDAOKDx-5_5qZcapgI-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-66" parent="khKDAOKDx-5_5qZcapgI-65" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-67" parent="khKDAOKDx-5_5qZcapgI-65" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-68" parent="khKDAOKDx-5_5qZcapgI-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-69" parent="khKDAOKDx-5_5qZcapgI-68" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-70" parent="khKDAOKDx-5_5qZcapgI-68" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="formid (app-...)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-71" parent="khKDAOKDx-5_5qZcapgI-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-72" parent="khKDAOKDx-5_5qZcapgI-71" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-73" parent="khKDAOKDx-5_5qZcapgI-71" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="formname (Nombre aplicativo)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-74" parent="khKDAOKDx-5_5qZcapgI-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-75" parent="khKDAOKDx-5_5qZcapgI-74" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-76" parent="khKDAOKDx-5_5qZcapgI-74" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="tabid (module..)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-49" parent="khKDAOKDx-5_5qZcapgI-77" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="sid_send_docuia" vertex="1">
+          <mxGeometry height="150" width="230" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-50" parent="khKDAOKDx-5_5qZcapgI-49" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-51" parent="khKDAOKDx-5_5qZcapgI-50" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-52" parent="khKDAOKDx-5_5qZcapgI-50" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-53" parent="khKDAOKDx-5_5qZcapgI-49" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-54" parent="khKDAOKDx-5_5qZcapgI-53" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-55" parent="khKDAOKDx-5_5qZcapgI-53" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="formid (app-...)" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-56" parent="khKDAOKDx-5_5qZcapgI-49" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-57" parent="khKDAOKDx-5_5qZcapgI-56" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-58" parent="khKDAOKDx-5_5qZcapgI-56" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="gene_vers" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-59" parent="khKDAOKDx-5_5qZcapgI-49" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-60" parent="khKDAOKDx-5_5qZcapgI-59" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-61" parent="khKDAOKDx-5_5qZcapgI-59" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="promt, respuesta" vertex="1">
+          <mxGeometry height="30" width="200" x="30" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-63" parent="khKDAOKDx-5_5qZcapgI-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="tabla ia" vertex="1">
+          <mxGeometry height="30" width="130" x="100" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-78" parent="khKDAOKDx-5_5qZcapgI-77" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="tabla de los inputs" vertex="1">
+          <mxGeometry height="30" width="130" x="710" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="khKDAOKDx-5_5qZcapgI-81" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;# Análisis de Estados del Requerimiento&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;## 1. Contexto General&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;El sistema gestiona &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**requerimientos funcionales y técnicos**&lt;/span&gt; asociados a aplicativos construidos mediante un generador.&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### Entornos y Persistencia&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Productivo**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Tabla de &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Requerimientos + Documentación**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Tabla de &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Tabs (aplicativo consolidado)**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Desarrollo**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Inputs del generador&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Los inputs &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**solo se publican**&lt;/span&gt; cuando el aplicativo está finalizado&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### Restricciones en Productivo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; No existe acceso al desarrollo de inputs&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Solo se permite:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Crear requerimientos&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Gestionar MER&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Gestionar documentación técnica&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;## 2. Estados del Requerimiento&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;| Código | Nombre |&lt;/div&gt;&lt;div&gt;|------|--------|&lt;/div&gt;&lt;div&gt;| BRD | BORRADOR |&lt;/div&gt;&lt;div&gt;| RDC | REDACTADO |&lt;/div&gt;&lt;div&gt;| ACT | ACTIVO |&lt;/div&gt;&lt;div&gt;| APR | APROBADO ÁREA ORIGEN |&lt;/div&gt;&lt;div&gt;| ASG | ASIGNACIÓN SCRUM MASTER |&lt;/div&gt;&lt;div&gt;| APT | APROBADO ÁREA TECNOLOGÍA |&lt;/div&gt;&lt;div&gt;| RCH | RECHAZADO PARCIALMENTE |&lt;/div&gt;&lt;div&gt;| CER | CERRADO |&lt;/div&gt;&lt;div&gt;| ANL | ANULADO GERENCIA ORIGEN |&lt;/div&gt;&lt;div&gt;| ANU | ANULADO GERENCIA TI |&lt;/div&gt;&lt;div&gt;| ARC | ARCHIVADO |&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;## 3. Reglas Generales&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### Estados Terminales (sin acciones)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;`CER`&lt;/span&gt;, &lt;span style=&quot;color: #ce9178;&quot;&gt;`ANL`&lt;/span&gt;, &lt;span style=&quot;color: #ce9178;&quot;&gt;`ANU`&lt;/span&gt;, &lt;span style=&quot;color: #ce9178;&quot;&gt;`ARC`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; No permiten:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Edición&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminación&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Descarga&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Ninguna acción adicional&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### Estados Solo Lectura (descarga)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;`ACT`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;`APR`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;`APT`&lt;/span&gt; (por ahora)&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### Desarrollo de Aplicativos&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; El desarrollo inicia &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**después de APT**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; El requerimiento queda congelado en productivo&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;## 4. Definición Funcional por Estado&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### BRD – BORRADOR&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Estado inicial del requerimiento&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Construcción de la documentación funcional&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Crear requerimiento&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar requerimiento&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar módulos (tabs)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar MER&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar documentación técnica&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar requerimiento&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Reglas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Solo en este estado se pueden modificar módulos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Si se elimina:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Se deben eliminar todos los inputs en desarrollo&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Evita aplicativos incompletos&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### RDC – REDACTADO&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; El wizard fue completado&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; MER y documentación técnica finalizados&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Descargar&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Enviar a aprobación&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar requerimiento&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones No Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar módulos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar MER&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar documentación técnica&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Validaciones**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Todos los módulos deben tener documentación&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Si no cumple, no puede pasar a ACT&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Eliminación**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Permitida&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Elimina inputs de desarrollo asociados&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### ACT – ACTIVO&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requerimiento enviado para aprobación&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Descargar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones No Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar requerimiento&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar módulos&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar MER&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar documentación técnica&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### APR – APROBADO ÁREA ORIGEN&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Aprobación por el área solicitante&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Descargar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones No Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Modificar MER o documentación&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### ASG – ASIGNACIÓN SCRUM MASTER&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requerimiento asignado al flujo de TI&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Descargar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones No Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Nota**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Estado pendiente de validación futura para posibles ediciones controladas&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### APT – APROBADO ÁREA TECNOLOGÍA&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Aprobación final&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Inicio oficial del desarrollo&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Descargar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones No Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar requerimiento&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar MER&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar documentación técnica&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Notas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; El aplicativo se desarrolla a partir de este punto&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Cambios posteriores requerirían reiniciar el flujo (pendiente de definir)&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### RCH – RECHAZADO PARCIALMENTE&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requiere ajustes antes de continuar el flujo&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar requerimiento&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar MER&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Editar documentación técnica&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones No Permitidas**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Eliminar&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Regla Especial**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Al guardar cambios:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; El estado vuelve automáticamente a ACT&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### CER – CERRADO&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requerimiento finalizado&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Ninguna&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### ANL – ANULADO GERENCIA ORIGEN&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requerimiento anulado por negocio&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Ninguna&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### ANU – ANULADO GERENCIA TI&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requerimiento anulado por tecnología&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Ninguna&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;### ARC – ARCHIVADO&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Descripción**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Requerimiento archivado históricamente&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**Acciones**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; Ninguna&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;## 5. Observaciones para Diagramación&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; El flujo principal es &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**lineal con excepciones**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; RCH es el único estado que retorna a ACT&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; BRD y RDC son los únicos estados que permiten eliminación&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; La modificación de módulos está restringida exclusivamente a BRD&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt; APT marca la frontera entre &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**definición**&lt;/span&gt; y &lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;**desarrollo**&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;---&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;font-weight: bold;&quot;&gt;## En vistas a la publicación se puede crear el estado de publicado.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="4830" width="880" x="5160" y="-630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
